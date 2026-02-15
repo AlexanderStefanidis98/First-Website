@@ -156,3 +156,36 @@ a:focus {
     height: 150px;
 }
 
+.box-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.box-link:hover .Musik,
+.box-link:hover .Gaming {
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
+
+.musik-start {
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto 1rem;
+    color: black;
+    padding: 1rem;
+}
+
+.gaming-start {
+   background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto 1rem;
+    color: black;
+    padding: 1rem; 
+}
